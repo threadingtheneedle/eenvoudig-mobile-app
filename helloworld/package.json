@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "server.js"
+    "start": "server.js",
+    "dev": "server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "ejs": "^5.0.2",
     "express": "^5.2.1"
   }
 }
