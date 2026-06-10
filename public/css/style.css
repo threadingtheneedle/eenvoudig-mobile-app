@@ -17,6 +17,9 @@ article{
     text-align:center;
     margin:0.5rem;
 }
+#hamburgerButton{
+    margin-left:0.5rem;
+}
 /*For screens larger than 769 pixels*/
 @media (min-width: 768px){
     body{
