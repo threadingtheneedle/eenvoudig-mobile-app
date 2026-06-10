@@ -20,6 +20,9 @@ article{
 #hamburgerButton{
     margin-left:0.5rem;
 }
+#navbarInfo{
+    background-color: #FFBEBE;
+}
 /*For screens larger than 769 pixels*/
 @media (min-width: 768px){
     body{
