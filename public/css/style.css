@@ -22,6 +22,7 @@ article{
 }
 #navbarInfo{
     background-color: #FFBEBE;
+    padding-left:1rem;
 }
 /*For screens larger than 769 pixels*/
 @media (min-width: 768px){
