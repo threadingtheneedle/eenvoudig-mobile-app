@@ -16,6 +16,10 @@ app.get('/jug', (red, res,) =>{
 res.render('jug');
 });
 
+app.get('/homepage', (red, res,) =>{
+res.render('homepage');
+});
+
 // Stap 3: Server starten
 app.listen(PORT, () => {
     console.log(`Server draait op http://localhost:${PORT}`);
