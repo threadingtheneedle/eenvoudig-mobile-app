@@ -1,0 +1,15 @@
+{
+    "name":"Golf",
+    "short_name":"Go",
+    "start_url":"index.ejs",
+    "display":"standalone",
+    "theme_color":"#BEFFBE",
+    "background_color":"#BEBEFF",
+    "icons":
+    [
+        {
+            "src":"img/Calamus.png",
+            "purpose":"any maskable"
+        }
+    ]
+}
