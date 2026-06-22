@@ -1,6 +1,7 @@
 body{
     background-color:#BEBEFF;
     font-size:1.5rem;
+    text-align:center;
 }
 .navbar{
     background: #FFBEBE;
@@ -15,7 +16,6 @@ article{
     background-color:#BEFFBE;
     color:#000000;
     width:20rem;
-    text-align:center;
     margin:0.5rem;
 }
 #hamburgerButton{
