@@ -37,4 +37,7 @@ article{
         width:50rem;
         margin:0.2rem;
     }
+    body{
+        font-size:3rem;
+    }
 }
