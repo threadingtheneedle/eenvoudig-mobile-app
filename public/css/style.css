@@ -1,5 +1,6 @@
 body{
     background-color:#BEBEFF;
+    font-size:1.5rem;
 }
 .navbar{
     background: #FFBEBE;
@@ -38,6 +39,6 @@ article{
         margin:0.2rem;
     }
     body{
-        font-size:3rem;
+        font-size:1rem;
     }
 }
