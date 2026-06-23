@@ -3,15 +3,6 @@ body{
     font-size:1.5rem;
     text-align:center;
 }
-.navbar{
-    background: #FFBEBE;
-}
-.flexbox{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin: 0.5rem;
-}
 article{
     background-color:#BEFFBE;
     color:#000000;
@@ -39,6 +30,15 @@ article:hover{
     background-color: #FFBEBE;
     padding:0.5rem;
     margin-bottom:5rem;
+}
+.navbar{
+    background: #FFBEBE;
+}
+.flexbox{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 0.5rem;
 }
 /*For screens larger than 769 pixels*/
 @media (min-width: 768px){
