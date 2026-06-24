@@ -53,16 +53,22 @@ a{
     width:20rem;
     margin:0.5rem;
 }
+.back{
+    margin-top:2rem;
+}
 /*For screens larger than 768 pixels*/
 @media (min-width: 768px){
     .button{
-        width:35rem;
+        width:32rem;
         margin:0.5rem;
-        font-size:2rem;
+        font-size:1.5rem;
     }
     .buttonTwo{
-        width:35rem;
-        font-size:2rem;
+        width:32rem;
+        font-size:1.5rem;
+    }
+    .back{
+        margin-top:1.5rem;
     }
     body{
         font-size:1.2rem;
