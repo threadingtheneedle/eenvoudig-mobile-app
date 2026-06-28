@@ -22,7 +22,7 @@ a{
     background-color: #FFBEBE;
     padding-left:1rem;
 }
-#kcalCounter:hover{
+.hoverlessEffect:hover{
     background-color:#BEFFBE;
     color:#000;
 }
