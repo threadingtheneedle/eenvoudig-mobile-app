@@ -22,6 +22,9 @@ a{
     background-color: #FFBEBE;
     padding-left:1rem;
 }
+#kcalCounter:hover{
+    background-color:#BEFFBE;
+}
 .navbarLink{
     text-decoration:none;
     color:#000000;
