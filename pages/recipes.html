@@ -42,16 +42,22 @@
             Settings
         </h2>
         <div class="flexbox">
-            <article class="button hoverlessEffect">
-                Input forum
-            </article>
-            <article class="button hoverlessEffect">
-                Aantal KCAL<br><br>
-                123456 kcal
-            </article>
-            <article class="button">
-                Add food
-            </article>
+            <form>
+                <label class="form-label">
+                    Add a food item to your kcal total
+                </label>
+                <article class="button hoverlessEffect">
+                    <input placeholder="Insert food item here..." type="text" class="form-control">
+                    </input>
+                </article>
+                <article class="button hoverlessEffect">
+                    Aantal KCAL<br><br>
+                    123456 kcal
+                </article>
+                <button class="button" id="jsButtonAdd">
+                    Add food
+                </button>
+            </form>
             <a href="../index.html">
                 <article class="button back">
                     Back
