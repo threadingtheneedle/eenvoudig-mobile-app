@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!--My own styling-->
     <link href="../css/style.css" rel="stylesheet">
-    <script src="../js/javascript_real.js" defer></script>
+    <script src="../js/addFood.js" defer></script>
     <link href="../img/Silver.png" rel="icon">
 </head>
 <body>
@@ -39,7 +39,7 @@
     </nav>
     <main>
         <h2>
-            Settings
+            Food addition
         </h2>
         <div class="flexbox">
                 <label class="form-label">
@@ -47,13 +47,10 @@
                 </label>
             <form>
                 <article class="button hoverlessEffect">
-                    <input placeholder="Insert food item here..." type="text" class="form-control" name="food">
+                    <input placeholder="Insert food item here..." type="text" class="form-control" id="food">
                     </input>
                 </article>
-                <article class="button hoverlessEffect">
-                    Aantal KCAL<br><br>
-                    123456 kcal
-                </article>
+                <article id="popupAdd"></article>
                 <button class="button" id="jsButtonAdd">
                     Add food
                 </button>
