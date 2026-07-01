@@ -1,7 +1,7 @@
 //creates a function that reads all items from the localstorage
 function readFoodList(){
     //returns the "usable" list of items
-    return JSON.parse (localStorage.getItem('localStorageFood')) || [];
+    return (localStorage.getItem('localStorageFood')) || [];
 }
 
 //creates a function that puts out all the items into the DOM
@@ -28,4 +28,4 @@ function showFood(){
     .join('');
 }
 //Executes the function "showFood"
-showFood;
+showFood();
