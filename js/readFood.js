@@ -1,0 +1,1 @@
+const readFood = localStorage.getItem('localStorageFood');
