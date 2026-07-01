@@ -8,11 +8,11 @@ function showFood(){
     const list = document.querySelector('#foodList');
 
     //Checks if the localstorage has 0 items, if it does...
-    if(foods.length === 0){
+    if(!foods){
         const list = document.querySelector('#foodList');
         //Changes the html to display "nothing here yet"
         const emptyList = document.createElement('article');
-        emptyList.innerHTML = '<article class="button hoverlessEffect">nothing here yet</article>';
+        emptyList.innerHTML = 'nothing here yet';
         list.appendChild(emptyList);
         //returns so no other code is executed
         return;
@@ -21,7 +21,7 @@ function showFood(){
     //if the localstorage has more than 1 item...
     list.innerHTML = foods
     //executes whatever the fuck this is
-    .map(f=> `${localStorageFood}<br><br>`)
+    .map(f=> `${f.localStorageFood}<br><br>`)
     .join('');
 }
 //Executes the function "showFood"
