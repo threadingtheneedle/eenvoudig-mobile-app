@@ -19,7 +19,7 @@ addFood.addEventListener('click', () =>{
     if (!foodItem) return
 
     //Adds the foodItem to your local storage, turns it into a string before adding
-    localStorage.setItem('localStorageFood', JSON.stringify(foodItem));
+    localStorage.setItem('localStorageFood', foodItem);
 
     //Creates a const based off the localstorage, debugging purposes only
     const localFood = localStorage.getItem('localStorageFood');  
