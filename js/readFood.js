@@ -18,12 +18,8 @@ function showFood(){
         return;
     }
         
-    //if the localstorage has more than 1 item...
+    //if the localstorage has more than 1 item then it shows the item itself
     list.innerHTML = foods
-    //executes whatever the fuck this is
-    //This piece of shit won't work and I can't figure out why
-    .map(f=> `${f.localStorageFood}<br><br>`)
-    .join('');
 }
 //Executes the function "showFood"
 showFood();
